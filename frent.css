@@ -11,7 +11,8 @@ body{
 #d1{
   width: 80%;
   height: 90px;
-  margin-left: 70px; 
+  margin-left: 70px;
+  
 }
 li{
   display:inline-block;
@@ -73,3 +74,4 @@ button{
 .thiru{
   margin-top: -40px;
   margin-left: 115px;
+}
