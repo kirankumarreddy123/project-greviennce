@@ -1,0 +1,17 @@
+table{
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top:0px;
+}
+body{
+    background-color: navajowhite;
+}
+button{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    color: blue;
+    margin-left: 150px;
+}

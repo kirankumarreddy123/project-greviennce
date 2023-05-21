@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="college, institute, university", initial-scale="1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <img src="../Gates-Institute-logo.png"  width="700" height="350">
+    
+     <title>STUDENT GRIEVANCE FORM</title>
+    <link rel="stylesheet" href="grievance.css">
+      
+    <h1><center>STUDENT GRIEVANCE FORM</center></h1>
+    <style>
+        form{
+            padding: 12px;
+            margin: 2px;
+        }
+        /* input{
+            display: block;
+            padding: 5px;
+        } */
+        a{
+            display: block;
+        }
+        li{
+            display: inline;
+        }
+        /* input{
+            display: list-item;
+        } */
+        div{
+            border:2px solid black;
+            width: 100%;
+            height: 750px;
+        }
+      
+    </style>
+</head>
+    <body>
+        <form action="../4.html">
+            <span><label for="">ENROLLMENT-NO :  </label></span>
+            <span><input type="text" id="enrollment"></span>
+            <!-- <label for="">ENROLLMENT-NO :  </label> -->
+            <br>
+            <label for=""> DEPARTMENT :    </label>
+                <select name= "department"  id="department">
+                    
+                    <option value=" ">(select one)</option>
+                    <option value="1">CSE</option>
+                    <option value="2">ECE</option>
+                    <option value="3">EEE</option>
+                    <option value="4">MECH</option>
+                    <option value="5">CIVIL</option>
+                    <option value="6">CDS</option>
+                    <option value="7">CAI</option>
+                    <option value="8">CCS</option>
+                </select>
+              
+                    <legend>Gender</legend>
+                    <label for="male">Male</label>
+                    <input type="checkbox" id="male" name="gender" checked><br>
+                    <label for="female">Female</label>
+                    <input type="checkbox" id="female" name="female"><br>
+               
+            <label for="">MOBILE : </label>
+            <input type="text" id="text" required>
+            <br>
+            <label for=" "> GRIVANCE CATEGORY  : <select id="category" name="category">
+                <option value=" ">(select one)</option>
+                <option value="1">EXAMINATION</option>
+                <option value="2">INFRASTRUCTURE</option>
+                <option value="3">GENERAL FACILITIES</option>
+                <option value="4">HOSTEL</option>
+                <option value="5">LIBRARY</option>
+                <option value="6">SPORTS</option>
+                <option value="7">HYGIENE</option>
+                <option value="8">ADMISSION</option>
+                <option value="9">SEXUAL HARASSMENT</option>
+                <option value="10">TEACHING LEARNING</option>
+                <option value="11">ANY OTHER</option>
+             </select>
+            </label>
+            <br>
+            <label for="grievance description">GRIEVANCE DESCRIPTION : </label>
+            <input type="text" id="grievance description" placeholder="MAXIMUM 150 WORDS">
+        <p> I hereby declare that the information provided above is correct.I shall be responsible for furnishing any wrong information.</p>
+        <label for="Declaration"> Declaration : </label>
+        <label>Accept <input type="checkbox" id="accept"></label>
+        <button type="Submit">Submit Grievance</button>
+            
+        </form>
+     
+    </body>
+    </html>
