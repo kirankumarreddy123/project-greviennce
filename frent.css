@@ -1,12 +1,15 @@
+body{
+  height: 100vh;
+  width: 100vh;
+}
 #d3{
  border: 2px solid black;
- width: 500px;
+ width: 400px;
  height: 200px;
  background-color: blanchedalmond;
-
 }
 #d1{
-  width: 50%;
+  width: 80%;
   height: 90px;
   margin-left: 70px;
   
@@ -24,6 +27,7 @@ li{
   margin:0px;
 }
 
+
 .bott{
   position: absolute;
   top:200px
@@ -33,27 +37,25 @@ h1{
 }
 #d2{
   border: 1px solid black;
-  width: auto;
-  height: 450px;
-  margin-top: -0px;
-  background-image: url();
+  width:1150px;
+  height: 300px;
+  margin-top: 25px;
   background-size: 500px;
-  background-image: url("GATES-main-Building-1.jpg");
+  background-image: url(../GATES-main-Building-1.jpg);
   background-size: cover;
 }
 #d4{
-   display: inline-block;
-  margin-left: 970px;
-  margin-top: -90px;
+  display:flex;
+ margin-left: 970px;
+ margin-top: -80px;
 }
 #d5{
- border: 2px solid black;
+  border: 2px solid black;
   width: 400px;
   height: 200px;
   margin: 750px;
   margin-top: -205px;
- 
-
+  
 }
 #d6{
   border: 2px solid black;
@@ -61,8 +63,6 @@ h1{
   height: 200px;
   margin-top:  -953px;
   margin-left: 400px;
-
-  
 }
 #d7{
   margin-top: -20px;
@@ -70,8 +70,7 @@ h1{
 button{
   background-color: green;
   margin-left: 250px;
- }
- .thiru{
+}
+.thiru{
   margin-top: -40px;
   margin-left: 115px;
- }
