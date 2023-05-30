@@ -1,0 +1,62 @@
+div, .f1{
+    border: 2px solid black;
+    height: 500px;
+    width: 180px;
+    margin: 5px;
+    margin-top: 1px;
+}
+div, button{
+    margin: 10px;
+}
+h3{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+h2{
+    margin: auto;
+}
+#f2{
+    margin-left: 200px;
+    margin-top: -514px;
+    height: 500px;
+    width: 950px;
+}
+div, .f2, h2{
+    margin-top: 5px;
+}
+div, .f2, hr{
+    margin-top: 5px;
+}
+img{
+    padding-left: 300px;
+   
+}
+form {
+    padding: 20px;
+    margin: 40px 40px;
+    justify-content:center;
+    color:black;
+}
+label {
+    display:inline-block;
+    margin: 0.5rem 0;
+  }
+#complaints{
+    width: 943px;
+    height: 77vh;
+    margin: auto;
+    background-color:burlywood;
+    color: #f5f6f7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align:left;
+    justify-content:center;
+    position: relative;
+    left: 50px;
+    padding-left: 5px;
+    margin-left: -0px;
+    margin-top: -9px;
+    position: sticky;
+  }
+
+
