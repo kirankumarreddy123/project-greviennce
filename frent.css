@@ -4,13 +4,13 @@ body{
 }
 #d3{
  border: 2px solid black;
- width: 400px;
+ width: 550px;
  height: 200px;
  background-color: blanchedalmond;
 }
 #d1{
-  width: 80%;
-  height: 90px;
+  width: 1000px;
+  height: 100px;
   margin-left: 70px;
   
 }
@@ -37,8 +37,8 @@ h1{
 }
 #d2{
   border: 1px solid black;
-  width:1150px;
-  height: 300px;
+  width:1500px;
+  height: 435px;
   margin-top: 25px;
   background-size: 500px;
   background-image: url(GATES-main-Building-1.jpg);
@@ -46,14 +46,14 @@ h1{
 }
 #d4{
   display:flex;
- margin-left: 970px;
+ margin-left: 1260px;
  margin-top: -80px;
 }
 #d5{
   border: 2px solid black;
-  width: 400px;
+  width: 600px;
   height: 200px;
-  margin: 750px;
+  margin: 900px;
   margin-top: -205px;
   
 }
@@ -61,8 +61,8 @@ h1{
   border: 2px solid black;
   width: 350px;
   height: 200px;
-  margin-top:  -950px;
-  margin-left: 400px;
+  margin-top:  -1103px;
+  margin-left: 550px;
 }
 #d7{
   margin-top: -20px;
@@ -75,3 +75,13 @@ button{
   margin-top: -40px;
   margin-left: 115px;
 }
+/* .footer{
+  display: flex;
+  justify-content: space-around;
+  
+} */
+
+
+
+
+
